@@ -15,6 +15,6 @@ Sleuth distributed tracing is broken:
 ```
 
 
-Metrics for http server requests:
+Metrics for http client requests (requests done by the RestTemplate) are not working:
 
-[http://localhost:8080/actuator/metrics/http.server.requests](http://localhost:8080/actuator/metrics/http.server.requests)
+[http://localhost:8080/actuator/metrics/http.client.requests](http://localhost:8080/actuator/metrics/http.client.requests)
